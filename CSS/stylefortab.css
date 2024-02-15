@@ -1,0 +1,34 @@
+
+@media(max-width:1000px) and (min-width:780px){
+
+    
+    .hero-text{
+       color: brown;
+       position: absolute;
+    top: 210px;
+    left: 60%;
+    
+    }
+    .herotext-title{
+       font-size:xx-large; 
+    }
+    .herotext-para{
+        display: inline-block;
+        font-size: small;
+    }
+    
+    p.herotext-para{
+        padding-right:2px;
+        padding-top: 5px;
+    }
+    .hero-text  img{
+        width:25px
+    }
+
+    .hero-page>img{
+        width: 100%;
+        height: 400px;
+    }
+    
+    
+    }

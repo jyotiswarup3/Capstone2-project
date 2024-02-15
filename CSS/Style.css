@@ -1,0 +1,74 @@
+img{
+    width: 10px;
+}
+
+.hero-page>img{
+    width: 100%;
+    height: 600px;
+}
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -50%);    
+
+}
+.hero-text  img{
+    width:30px
+}
+.herotext-title{
+    width: 400px;
+    
+}
+.herotext-para{
+    display: inline-block;
+}
+p.herotext-para{
+    padding-right: 5px;
+    padding-top: 20px;
+}
+
+.banner img{
+    width: 80%;
+    height: 250px;
+    opacity: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 20px;
+}
+.banner{
+    margin-top: 60px;
+}
+.education-heading{
+    width: 30%;
+    position: absolute;
+    text-align: center;
+    top: 710px;
+    left: 12%;
+}
+.experience-heading{
+    width: 20%;
+    text-align: center;
+    position: absolute;
+    top: 710px;
+    left: 60%;
+}
+
+.experience > img{
+    opacity: 10%;
+   
+}
+.skills{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.skills>img{
+    width: 100px;
+    margin: 40px;
+}
+
+
+
