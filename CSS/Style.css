@@ -1,6 +1,7 @@
-img{
-    width: 10px;
+body{
+    background-color: azure;
 }
+
 
 .hero-page>img{
     width: 100%;
@@ -70,5 +71,69 @@ p.herotext-para{
     margin: 40px;
 }
 
+.container{
+    width:650px;
+}
+.projects{
+margin-top: 80px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:10px;
+    row-gap: 20px;
+}
+
+.projects img{
+width: 300px;
+height: 300px;
+opacity: 20%;
+border-radius: 40%;
+margin-left: 9%;
+}
+.portfolio1{
+width: 300px;
+height: 300px;
+opacity: 20%;
+border-radius: 40%;
+margin-left: 9%;
+background-color: aquamarine;
+}
+.portfolio2{
+    width: 300px;
+    height: 300px;
+    opacity: 20%;
+    border-radius: 40%;
+    margin-left: 9%;
+    background-color:wheat;
+    text-align: center;
+    }
+    .portfolio2  h4{
+        margin-top: 50%;
+        transform: translate( 0%, -50%); 
+        color: black;
+        opacity: 100%;
+    }
+    .portfolio1  h4{
+        margin-top: 50%;
+        transform: translate( 0%, -50%); 
+        color: black;
+        opacity: 100%;
+        margin-left: 25%; ;
+    }
+
+    .hobbies img{
+        width: 100px;
+        margin: 40px;
+    }
+    .hobbies{
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 200px;
+
+    }
+
+    .footer img{
+        width: 50px;
+    }
 
 
